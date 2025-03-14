@@ -62,6 +62,8 @@ This is still in preliminary stage. 2 python script were developped.
 - Bed_calibration.py create a web interface accessible over the local network from any device but has to run continuously on a pc or a server.
 - calibration.py is a standalone app running only on the device on which it is loaded. In order to be truly functional, the PC would need to be located near the printer.
 
+Will need to adapt the scripts to make them work on a phone as standalone apps. 
+
 ## Potential Future Improvements
 🚀 **Save previous calibration results** for comparison
 🚀 **Export calibration reports** as PDFs
