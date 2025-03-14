@@ -1,7 +1,7 @@
 # Bed Calibration PWA
 
 ## Overview
-This project is a **Progressive Web App (PWA) with Flask** designed to assist in **3D printer bed calibration**. The app allows users to **input Z-height measurements**, **detect outliers**, and **generate adjustment recommendations** for manual leveling. It also **visualizes the bed leveling data** with a heatmap to help users identify uneven spots.
+This project is a **Progressive Web App (PWA) with Flask** designed to assist in **the bed calibration of Flashforge Adventurer 3/4 Series 3d Printer**. The app allows users to **input Z-height measurements**, **detect outliers**, and **generate adjustment recommendations** for manual calibration. It also **visualizes the bed leveling data** with a heatmap to help users identify uneven spots.
 
 The app is designed to be **offline-friendly**, meaning users can add it to their **Android home screen** and use it without needing an internet connection.
 
@@ -55,9 +55,14 @@ python app.py
 3. Follow the **recommended adjustments** to improve bed leveling.
 
 ## Goal
-The goal of this project is to **make 3D printer bed calibration easier** by providing a **simple, visual tool** for manual leveling. Many 3D printers lack built-in mesh leveling, and this tool helps users achieve a more level print surface manually.
+The goal of this project is to **make Flashforge Adventurer 3/4 Series 3d Printer easier** by providing a **simple, visual tool** for manual leveling. Many 3D printers lack built-in mesh leveling, and this tool helps users achieve a more level print surface manually.
 
-## Future Improvements
+## Current Status
+This is still in preliminary stage. 2 python script were developped. 
+- Bed_calibration.py create a web interface accessible over the local network from any device but has to run continuously on a pc or a server.
+- calibration.py is a standalone app running only on the device on which it is loaded. In order to be truly functional, the PC would need to be located near the printer.
+
+## Potential Future Improvements
 🚀 **Save previous calibration results** for comparison
 🚀 **Export calibration reports** as PDFs
 🚀 **Support for multiple printer profiles**
