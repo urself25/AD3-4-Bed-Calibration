@@ -13,39 +13,6 @@ The app is designed to be **offline-friendly**, meaning users can add it to thei
 ✅ **Works offline as a PWA** (installed on Android or PC)
 ✅ **Mobile-friendly interface**
 
-## Project Structure
-```
-📂 bed_calibration_pwa
- ├── 📂 static        # Contains CSS, JavaScript, and images
- │   ├── 📂 images
- │   ├── style.css    # Stylesheet
- │   ├── script.js    # JavaScript logic
- │   ├── service-worker.js  # Enables Offline Mode
- │   ├── manifest.json  # PWA Settings (name, icons, etc.)
- ├── 📂 templates     # HTML templates for the app
- │   ├── index.html   # Main UI
- ├── app.py          # Flask Backend (Runs Python)
- ├── requirements.txt # Python dependencies
- ├── README.md       # Project Guide
-```
-
-## Installation
-### **1️⃣ Install Dependencies**
-Ensure you have **Python 3+** installed, then install dependencies:
-```sh
-pip install flask numpy matplotlib seaborn
-```
-
-### **2️⃣ Run the Flask App**
-```sh
-python app.py
-```
-
-### **3️⃣ Access the App on Your Phone or PC**
-- Open **Chrome or Edge**
-- Go to **`http://127.0.0.1:5000/`**
-- To install on **Android**, click **"Add to Home Screen"**
-
 ## How It Works
 1. Enter **Z-height values** from your **3D printer's manual bed leveling process**.
 2. Click **"Analyze"** to:
